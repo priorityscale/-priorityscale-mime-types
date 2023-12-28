@@ -1,0 +1,21 @@
+{
+  "name": "@priorityscale/mime-types",
+  "version": "1.0.0",
+  "description": "Package for converting mime types to file extensions",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ --copy-files --out-dir lib",
+    "deploy": "npm run build && npm version patch && npm publish"
+  },
+  "author": "PriorityScale LLC",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@jest/globals": "^29.3.1",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0"
+  }
+}
