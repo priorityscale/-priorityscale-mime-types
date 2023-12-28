@@ -1,6 +1,6 @@
 {
   "name": "priorityscale-mime-types",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Package for converting mime types to file extensions",
   "main": "index.js",
   "scripts": {
